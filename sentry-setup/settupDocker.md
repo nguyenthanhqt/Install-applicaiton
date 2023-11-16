@@ -121,9 +121,11 @@ SENTRY_REDIS_PORT=6379
 ```bash
 docker-compose run --rm sentry-base config generate-secret-key
 ```
-## Bước 7 chạy lệnh
+## Bước 7: chạy lệnh
 ```bash
     Docker-compose up -d
 ```
 
+## Bước 8: truy cập vào http://{ip máy cài đặt}:9000 
+### username; password (lúc cài đặt có yêu cầu)
 # --- Thank ---
