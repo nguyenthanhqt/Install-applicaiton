@@ -116,7 +116,7 @@ SENTRY_REDIS_HOST=sentry-redis
 SENTRY_REDIS_PORT=6379
 ```
 
-## Bước 6 Generate secret key và lấy key thay vào file biến môi trường .env
+## Bước 6: Generate secret key và lấy key thay vào file biến môi trường .env
 
 ```bash
 docker-compose run --rm sentry-base config generate-secret-key
@@ -125,3 +125,5 @@ docker-compose run --rm sentry-base config generate-secret-key
 ```bash
     Docker-compose up -d
 ```
+
+# --- Thank ---
